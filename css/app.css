@@ -1,0 +1,308 @@
+/*Chart colors*/
+html, body, div, span, applet, object,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:  Georgia, serif;
+	color: #787878;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+i{
+	font-style: italic;
+    font-weight: 200;
+
+}
+
+
+/* Your styles go here */
+
+h1, h2, h3, h4, h5, h6{
+	font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;
+	
+}
+
+h1{
+	font-size: 2em;
+	color:#37424A;
+	text-align: center;
+	line-height: 2em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*a {
+    color: #b84ab4;
+    text-decoration: none;
+}*/
+
+.first-graph:first-letter { 
+	float: left; 
+	color: #37424A; 
+	font-size: 2.5em; 
+	line-height: 1em; 
+	padding-top: 4px; 
+	padding-right: 10px; 
+	padding-left: 3px; 
+	font-family: Georgia, serif; 
+}
+
+
+ p{
+    font-family:  Garamond, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #393939;
+    padding-bottom: 1.5em;
+
+}
+
+.image2 {
+	width:50%;
+	margin:0 auto;
+	max-width:1000px;
+	text-align: justify;
+	background-color: #fff
+
+
+}
+
+.pullquote {
+	font-family:  Garamond, serif;
+    font-size: 30px;
+    line-height: 1.5em;
+    color: #000000;
+    padding-bottom: 1.5em;
+    text-align: center;
+
+}
+
+
+.wrap{
+	position: absolute;
+	width:100%;
+}
+
+
+.content{
+	width:50%;
+	margin:0 auto;
+	max-width:600px;
+	text-align: justify;
+	background-color: #fff
+
+}
+
+
+
+#imageself {
+    height: 100px;
+    width: 960px;
+    padding-bottom: 10px;
+}
+
+#imageself img {
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#hidden {
+	border:1px solid black;
+	border-style: dashed;
+	border-width: 2px;
+}
+
+h3 {
+	font-size: 2em;
+	color:#000000;
+	text-align: center;
+	
+
+}
+
+h2 {
+	font-size: 2em;
+	color:#000000;
+	text-align: justify;
+
+}
+
+h4 {
+	font-size: 1em;
+	color:#000000;
+	text-align: justify;
+}
+
+
+/* your code here | this overwrites foundation */
+
+body{
+	background-color: #fff;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family:'Source Sans Pro', Helvetica, Arial, sans-serif;
+	
+}
+
+
+.img-container {
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0.7);
+}
+
+.image {
+	opacity: 0.85; 
+	position: relative;
+	background: #000000;
+}
+#instagram {
+	opacity:;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 48px;
+    width: 100%;
+    text-align: left;
+    color: #000;
+}
+
+.caption2 {
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 100%;
+    text-align: right;
+    color: #000;
+}
+
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 44px;
+    letter-spacing: 5px;
+}
+
+.caption2 span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+#holder {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.iframe {
+	width:100%;
+	margin:0 auto;
+	max-width: 1000px;
+	text-align: center;
+}
+#g-suicidalchart_svg-Artboard_1 {
+	background
+}
+/* ai2HTML */
+
+
+
+/* media queries*/
+[id$="-desktop"],
+[id*="-desktop "] {
+	display: block;
+}
+
+[id$="-tablet"],
+[id*="-tablet "] {
+	display: none;
+}
+
+[id$="-mobile"],
+[id*="-mobile "] {
+	display: none;
+}
+
+
+@media  (max-width: 768px){
+	[id$="-desktop"],
+	[id*="-desktop "] {
+		display: none;
+	}
+
+	[id$="-tablet"],
+	[id*="-tablet "] {
+		display: block;
+	}
+
+	[id$="-mobile"],
+	[id*="-mobile "] {
+		display: none;
+	}
+}
+
+@media  (max-width: 480px){
+	[id$="-desktop"],
+	[id*="-desktop "] {
+		display: none;
+	}
+
+	[id$="-tablet"],
+	[id*="-tablet "] {
+		display: none;
+	}
+
+	[id$="-mobile"],
+	[id*="-mobile "] {
+		display: block;
+	}
+}
